@@ -351,7 +351,7 @@ public class ApConfigUtil {
                 }
             } catch (NumberFormatException e) {
                 // Ignore malformed string
-                Log.e(TAG, "Malformed channel value detected: " + e);
+                //Log.e(TAG, "Malformed channel value detected: " + e);
                 continue;
             }
         }
