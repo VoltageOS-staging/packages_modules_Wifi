@@ -206,6 +206,8 @@ interface IWifiManager {
     boolean is5GHzBandSupported();
 
     boolean is6GHzBandSupported();
+    
+    boolean is6GHzApBandSupported();
 
     boolean is60GHzBandSupported();
 
